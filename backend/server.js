@@ -5,7 +5,7 @@ const User = require("./modeles/User");
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4010;
 const dotenv = require("dotenv");
 require("cors");
 dotenv.config();
